@@ -10,9 +10,17 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2022_12_23_143947) do
+ActiveRecord::Schema[7.0].define(version: 2022_12_23_145119) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "authors", force: :cascade do |t|
+    t.string "name", default: "Belum ada nama"
+    t.integer "age", default: 0
+    t.text "address"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "books", force: :cascade do |t|
     t.string "title", limit: 50, default: "Belum ada judul"

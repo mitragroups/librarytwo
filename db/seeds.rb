@@ -5,3 +5,9 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
+
+Book.create(title: 'Buku Go-Lang', price: 75000, page: 75, description: 'Go-Lang adalah pemrograman Backend')
+Book.create(title: 'Buku Go-Lang', price: 75000, page: 75, description: 'Go-Lang adalah pemrograman Backend')
+Book.create(title: 'Buku Go-Lang', price: 75000, page: 75, description: 'Go-Lang adalah pemrograman Backend')
+Book.create(title: 'Buku Go-Lang', price: 75000, page: 75, description: 'Go-Lang adalah pemrograman Backend')
+Book.create(title: 'Buku Go-Lang', price: 75000, page: 75, description: 'Go-Lang adalah pemrograman Backend')

@@ -1,4 +1,5 @@
 class Book < ApplicationRecord
+    belongs_to :author
     def self.mahal 
         where('price > 200000')
     end

@@ -1,4 +1,5 @@
 class Author < ApplicationRecord
+    has_many :books 
     def self.penulis_pria
         where(gender: 'Male')
     end

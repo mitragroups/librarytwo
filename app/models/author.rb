@@ -3,7 +3,7 @@ class Author < ApplicationRecord
         where(gender: 'Male')
     end
 
-#    def self.usia_penulis 
-#        order(age: :asc).pluck(:name, :age, :address)
-#    end
+    def self.usia_penulis 
+        order(age: :asc).pluck(:name, :age, :address)
+    end
 end

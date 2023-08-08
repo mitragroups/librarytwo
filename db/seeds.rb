@@ -13,7 +13,8 @@ Book.create(title: 'Buku Python', price: 300000, pages: 300, description: 'Cocok
 Book.create(title: 'Buku Flutter', price: 440000, pages: 440, description: 'Hybrid Platform memudahkan developer mobile sekali coding langsung jadi dan bisa dipakai di beberapa device')
 Book.create(title: 'Buku DevOps', price: 700000, pages: 700, description: 'Menjadi DevOps yang berkualitas untuk deployment dan security server')
 =end
-
+=begin
 Author.create(name: 'Mafaaza', age: 5, address: 'Tebing Tinggi', gender: '')
 Author.create(name: "Mu'ammar", age: 8, address: 'Jakarta', gender: '')
 Author.create(name: 'Mahreen', age: 3, address: 'Bogor', gender: 'Female')
+=end

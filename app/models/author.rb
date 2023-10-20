@@ -11,4 +11,8 @@ class Author < ApplicationRecord
     def self.tua(age)
         where('age > ?', age)
     end
+
+    def self.nama_penulis 
+        pluck(:name)
+    end
 end

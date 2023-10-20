@@ -11,4 +11,8 @@ class Book < ApplicationRecord
     def self.urutan_harga 
         order(price: :asc).pluck(:title, :price, :pages)
     end
+
+    def self.buku_murah
+        where('price < ?', 300_000).pluck(:title)
+    end
 end

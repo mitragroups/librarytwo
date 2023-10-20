@@ -7,4 +7,8 @@ class Author < ApplicationRecord
     def self.usia_penulis 
         order(age: :asc).pluck(:name, :age, :address)
     end
+
+    def self.tua(age)
+        where('age > ?', age)
+    end
 end

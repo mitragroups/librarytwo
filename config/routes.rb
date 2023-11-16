@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   get 'books/index'
   get 'books/buku_murah'
   get 'books/buku_mahal'
+  resources :books
 
   get 'demo/index'
   get 'demo/iseng'

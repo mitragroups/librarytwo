@@ -2,6 +2,10 @@ class BooksController < ApplicationController
   def index
   end
 
+  def show 
+    @books = Book.all
+  end
+  
   def buku_murah
     @buku_murah = Book.buku_murah
   end

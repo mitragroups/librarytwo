@@ -13,6 +13,6 @@ class Book < ApplicationRecord
     end
 
     def self.buku_murah
-        where('price < ?', 300_000).pluck(:title)
+        where('price < ?', 500_000) #pakai ini agar notation ribuan bisa dipake _
     end
 end

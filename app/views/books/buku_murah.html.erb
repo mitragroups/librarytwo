@@ -1,1 +1,6 @@
-<%= @buku_murah %>
+<% @buku_murah.each do |buku| %>
+    <%= buku.title %>
+    </br>
+    <%= buku.price %>
+    </br>
+<% end %>

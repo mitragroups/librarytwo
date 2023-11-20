@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
   get 'authors/index'
+  get 'authors/author_name'
+  get 'authors/oke'
+  #get 'authors/show'
+
   get 'books/index'
   get 'books/buku_murah'
   get 'books/buku_mahal'

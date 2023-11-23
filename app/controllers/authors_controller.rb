@@ -11,4 +11,9 @@ class AuthorsController < ApplicationController
   def oke
     redirect_to controller: 'authors', action: 'show'
   end
+
+  def show 
+    redirect_to action: 'author_name'
+    #kalau render 'controller/html'
+  end
 end

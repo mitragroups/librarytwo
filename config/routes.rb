@@ -2,7 +2,8 @@ Rails.application.routes.draw do
   get 'authors/index'
   get 'authors/author_name'
   get 'authors/oke'
-  #get 'authors/show'
+  get 'authors/show'
+  #get 'controller/action'
 
   get 'books/index'
   get 'books/buku_murah'

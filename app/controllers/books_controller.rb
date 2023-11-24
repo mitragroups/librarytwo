@@ -14,6 +14,11 @@ class BooksController < ApplicationController
   
   def buku_murah
     @buku_murah = Book.buku_murah
+
+    render json: {
+      values: @buku_murah, 
+      message: 'Success'
+    }, status: 200
   end
 
   def buku_mahal 

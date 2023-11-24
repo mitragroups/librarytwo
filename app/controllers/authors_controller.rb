@@ -1,6 +1,11 @@
 class AuthorsController < ApplicationController
   def index
-    @nama_penulis
+    @author = Author.all
+
+    render json: { 
+      values: @author,
+      message: 'Success',
+    }, status: 200
   end
 
   def author_name 
